@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid | Auto Flow</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ddd;
+      }
+
+      .container {
+        width: 600px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 50px 200px;
+        grid-template-rows: 100px 50px;
+
+        /* implisit track */
+        grid-auto-columns: 400px;
+        /* grid-auto-rows: 400px; */
+
+        /* Auto Flow */
+        grid-auto-flow: column;
+      }
+
+      .item {
+        background-color: rgb(138, 209, 254);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .item:nth-child(even) {
+        background-color: rgb(255, 142, 142);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+    </div>
+  </body>
+</html>
