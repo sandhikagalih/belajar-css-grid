@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Alignments | Justify Content</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 120px 180px 120px;
+        grid-template-rows: 80px 80px;
+        gap: 5px;
+        /* justify-content: start; */
+        /* justify-content: end; */
+        /* justify-content: center; */
+        /* justify-content: stretch; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+      }
+
+      .items {
+        width: 100px;
+        height: 50px;
+        border: 3px solid black;
+        background-color: lightblue;
+        justify-content: end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items">1</div>
+      <div class="items">2</div>
+      <div class="items">3</div>
+      <div class="items">4</div>
+      <div class="items">5</div>
+      <div class="items">6</div>
+      <div class="items">7</div>
+      <div class="items">8</div>
+      <div class="items">9</div>
+    </div>
+  </body>
+</html>
