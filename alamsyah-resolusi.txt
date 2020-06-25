@@ -1,0 +1,4 @@
+Assalamualaikum, perkenalkan saya Nur Alamsyah dari Banjarmasin Kalimantan Selatan, saya sekarang sedang mempraktikkan video tutorial Git dan Github channel Web Programming unpas punya pak sandhi, saya senang sekali belajar bersama video-video tutorialnya, hampir semua video saya download dan banyak mendapatkan ilmu yang bermanfaat. kedepannya saya ingin pak sandhi membuat video tutorial " cara membuat video tutorial pembelajaran" seperti yang selama ini pak sandhi bikin.
+resolusi:
+- ingin bisa membuat video tutorial seperti pak sandhi
+- ingin belajar Laravel 
