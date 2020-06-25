@@ -2,3 +2,4 @@ Assalamualaikum, perkenalkan saya Nur Alamsyah dari Banjarmasin Kalimantan Selat
 resolusi:
 - ingin bisa membuat video tutorial seperti pak sandhi
 - ingin belajar Laravel 
+- belajar React Native JS
