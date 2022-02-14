@@ -8,5 +8,3 @@ Jangan lupa untuk subscribe channel youtube [WebProgrammingUNPAS](https://www.yo
 
 ### Jika kalian ingin berdonasi untuk channel WebProgrammingUNPAS, bisa kunjungi link berikut :
 [https://saweria.co/sandhikagalih](https://saweria.co/sandhikagalih)
-
-belajar github
